@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --fonte-titulo: "Poppins", sans-serif;
+}
+img
+ {
+    margin: auto;
+    padding: 1rem;
+}
+h3{
+    text-align: start;
+    font-size: 1.3rem;
+}
+.titles{
+    font-family: var(--fonte-titulo)
+}

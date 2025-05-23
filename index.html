@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <title>Front-end Books</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="books__header flex justify-between bg-blue-500 px-2 py-4 align-center md:flex-col">
+    <h1 class="titles text-xl font-semibold md:text-2xl">Top Front-end Books</h1>
+    <nav class="menu text-white flex gap-4">
+      <a href="#about" class="hover:text-black">About</a>
+      <a href="#books" class="hover:text-black">Books</a>
+      <a href="#contact" class="hover:text-black">Contact</a>
+    </nav>
+  </header>
+
+  <section id="about" class="about p-5 text-md flex flex-col gap-5">
+    <div class="texts flex flex-col gap-3">
+      <h2 class="titles font-semibold text-2xl">About This Collection</h2>
+      <p>Here are some of the best books to learn front-end development, covering HTML, CSS, JavaScript, and more.</p>
+    </div>
+    <img src="https://via.placeholder.com/100" alt="Bookshelf image">
+  </section>
+
+  <section id="books"
+    class="books font-semibold bg-linear-to-b from-blue-200 to-white-100 md:bg-linear-to-b from-blue-100 to-white-100">
+    <h2 class="titles font-bold text-2xl text-center p-2">Featured Books</h2>
+    <div id="book-list" class="book-list flex flex-col gap-5 text-center align-center p-5">
+    </div>
+  </section>
+
+  <section id="contact"
+    class="contact bg-linear-to-b from-white-500 to-blue-300 flex flex-col gap-3 justify-items-center">
+    <h2 class="font-bold text-xl text-center m-1 md:text-2xl">Contact</h2>
+    <p class="p-2 text-center text-md md:text-xl">For suggestions or book recommendations, reach out at <a
+        href="mailto:frontbooks@example.com" class="hover:text-white font-bold">frontbooks@example.com</a>.</p>
+  </section>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
